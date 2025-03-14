@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'mixins';
+
+header {
+  background-color: $verde-principal;
+  color: $blanco;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: $verde-oscuro !important;
+
+  .nav-link {
+    color: $blanco !important;
+    @include transition(color, 0.3s);
+
+    &:hover {
+      color: $verde-claro !important;
+    }
+  }
+}

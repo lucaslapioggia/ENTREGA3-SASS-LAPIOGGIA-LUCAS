@@ -1,0 +1,65 @@
+/* Variables de colores */
+:root {
+    --verde-principal: #6a994e;
+    --verde-oscuro: #386641;
+    --verde-claro: #a7c957;
+    --blanco: #ffffff;
+    --gris: #333;
+}
+
+/* Reset básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: var(--gris);
+}
+
+/* Estilos del header */
+header {
+    background-color: var(--verde-principal);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+.navbar {
+    background-color: var(--verde-oscuro) !important;
+}
+
+.nav-link {
+    color: var(--blanco) !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--verde-claro) !important;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--verde-principal);
+    color: var(--blanco);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    transition: background-color 0.3s ease-in-out;
+}
